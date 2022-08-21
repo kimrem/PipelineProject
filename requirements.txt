@@ -3,3 +3,5 @@ pandas
 scikit-learn
 pylint
 pytest
+importlib-metadata
+joblib
