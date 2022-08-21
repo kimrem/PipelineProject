@@ -11,6 +11,9 @@ variables:
   # TODO: Replace 'mywebapp193576' with the existing Web App name
   webAppName: 'PipelineProjectWebAppKR'
 
+  # Environment name
+  environmentName: 'flask-ml-service'
+
   # Project root folder. Point to the folder containing manage.py file.
   projectRoot: '$(System.DefaultWorkingDirectory)/**/*.zip'
 
