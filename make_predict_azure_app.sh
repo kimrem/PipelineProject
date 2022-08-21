@@ -25,6 +25,6 @@ curl -d '{
    }
 }'\
      -H "Content-Type: application/json" \
-     -X POST https://pipelineprojectwebappkr.azurewebsites.net:$PORT/predict
+     -X POST https://mywebappkr12.azurewebsites.net:$PORT/predict
 
      #your application name <yourappname>goes here
