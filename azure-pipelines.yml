@@ -7,7 +7,7 @@ variables:
   azureServiceConnectionId: 'myserviceconnection12012019'
   webAppName: 'myWebAppKR12'
   environmentName: 'flask-ml-service'
-  projectRoot: '$(System.DefaultWorkingDirectory)/**/*.zip'
+  projectRoot: $(System.DefaultWorkingDirectory)
 
 stages:
 - stage: Build
