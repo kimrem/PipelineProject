@@ -13,6 +13,8 @@
 <TODO:  
 * Architectural Diagram (Shows how key parts of the system work)>
 
+![PipelineProject](https://user-images.githubusercontent.com/25867675/186108902-7f148f24-51ed-4b73-8e0b-fc1e82764aa9.jpeg)
+
 <TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
 * Project running on Azure App Service
