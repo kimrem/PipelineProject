@@ -18,17 +18,29 @@ Below are instructions for running the Python project.
 
 * Project running on Azure App Service
 
-* Project cloned into Azure Cloud Shell by creating ssh-keys ("ssh-keygen -t rsa") and uploading them to GitHub
+* Project cloned into Azure Cloud Shell by creating ssh-keys ("ssh-keygen -t rsa"), getting public key (“cat /home/odl_user/.ssh/id_rsa.pub” and copy the key into to GitHub. Then clone repo to Azure by using "git clone #sshCodeFromGitHub”![image](https://user-images.githubusercontent.com/25867675/186249179-afb688b3-3b67-4aa4-9915-d4acf9001f70.png)
+
 <img width="888" alt="Project_cloned_to_Azure" src="https://user-images.githubusercontent.com/25867675/186111763-a542f7af-d7de-4ec5-a651-b85b8f669aea.png">
 
 
-* Passing tests that are displayed after running the `make all` command from the `Makefile`
+* Checking if tests are passed after running the "make all" command from the Makefile
 
-* Output of a test run
+<img width="1435" alt="Makefile_test_passed_2" src="https://user-images.githubusercontent.com/25867675/186249445-f03a325b-6627-4225-83fa-da8c3b85e909.png">
 
-* Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
 
-* Running Azure App Service from Azure Pipelines automatic deployment
+* Output of a test run using GitHub Actions as build server
+
+<img width="1433" alt="GitHub_Actions_passed" src="https://user-images.githubusercontent.com/25867675/186250428-851cdde0-3cdc-4dc1-a24b-8e25ec48a24d.png">
+
+<img width="1426" alt="GitHub_Actions_passed_2" src="https://user-images.githubusercontent.com/25867675/186250467-b3cca8ad-b6b8-4c85-b644-bdd034e2edb7.png">
+
+<img width="1414" alt="GitHub_Actions_Badge_ReadMe" src="https://user-images.githubusercontent.com/25867675/186251035-6166c9b7-fffd-4438-ba82-386cac2e7de1.png">
+
+* Successful deploy of the project in Azure Pipelines and automatic deployment of Azure App Service from Azure Pipelines
+
+<img width="1225" alt="Pipeline successfully working" src="https://user-images.githubusercontent.com/25867675/186251760-5b185873-54db-4aa4-ab76-bdd6a1df1049.png">
+
+<img width="813" alt="website_running" src="https://user-images.githubusercontent.com/25867675/186251949-9e56f491-9489-40ad-a0b4-c08d8a44fedd.png">
 
 * Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
 The output should look similar to this:
@@ -41,7 +53,8 @@ Port: 443
 
 * Output of streamed log files from deployed application
 
-> 
+<img width="1229" alt="Log Files" src="https://user-images.githubusercontent.com/25867675/186251222-dc73f788-fcf9-4f48-be29-4d880a7400a2.png">
+
 
 ## Enhancements
 
