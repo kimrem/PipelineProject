@@ -1,6 +1,6 @@
 # Overview
 
-<TODO: complete this with an overview of your project>
+This project illustrates how to deploy a machine learning python application using the concepts of CI/CD. Therefore, Azure App Services and Azure Pipelines are used.
 
 ## Project Plan
 <TODO: Project Plan
@@ -10,16 +10,17 @@
 
 ## Instructions
 
-<TODO:  
-* Architectural Diagram (Shows how key parts of the system work)>
+* Architectural Diagram (Shows how key parts of the system work)
 
 ![PipelineProject](https://user-images.githubusercontent.com/25867675/186108902-7f148f24-51ed-4b73-8e0b-fc1e82764aa9.jpeg)
 
-<TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
+Below are instructions for running the Python project.
 
 * Project running on Azure App Service
 
-* Project cloned into Azure Cloud Shell
+* Project cloned into Azure Cloud Shell by creating ssh-keys ("ssh-keygen -t rsa") and uploading them to GitHub
+<img width="888" alt="Project_cloned_to_Azure" src="https://user-images.githubusercontent.com/25867675/186111763-a542f7af-d7de-4ec5-a651-b85b8f669aea.png">
+
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
 
@@ -44,7 +45,7 @@ Port: 443
 
 ## Enhancements
 
-<TODO: A short description of how to improve the project in the future>
+The project can be improved. One idea would be to include alerts, for example when the web server fails. Once the project scales and multiple steps are required within the ML application it would be wise to include an effective microservice strategy including a production and a stage environment as well as load balancing.
 
 ## Demo 
 
