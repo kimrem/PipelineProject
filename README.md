@@ -3,10 +3,9 @@
 This project illustrates how to deploy a machine learning python application using the concepts of CI/CD. Therefore, Azure App Services and Azure Pipelines are used.
 
 ## Project Plan
-<TODO: Project Plan
 
-* A link to a Trello board for the project
-* A link to a spreadsheet that includes the original and final project plan>
+* A link to a Trello board for the project: https://trello.com/b/dWyJ3CJH/pipelineproject
+* The spreadsheet will be uploaded as document as file
 
 ## Instructions
 
@@ -18,7 +17,7 @@ Below are instructions for running the Python project.
 
 * Project running on Azure App Service
 
-* Project cloned into Azure Cloud Shell by creating ssh-keys ("ssh-keygen -t rsa"), getting public key (“cat /home/odl_user/.ssh/id_rsa.pub” and copy the key into to GitHub. Then clone repo to Azure by using "git clone #sshCodeFromGitHub”![image](https://user-images.githubusercontent.com/25867675/186249179-afb688b3-3b67-4aa4-9915-d4acf9001f70.png)
+* Project cloned into Azure Cloud Shell by creating ssh-keys ("ssh-keygen -t rsa"), getting public key (“cat /home/odl_user/.ssh/id_rsa.pub” and copy the key into to GitHub. Then clone repo to Azure by using "git clone sshCodeFromGitHub”![image](https://user-images.githubusercontent.com/25867675/186249179-afb688b3-3b67-4aa4-9915-d4acf9001f70.png)
 
 <img width="888" alt="Project_cloned_to_Azure" src="https://user-images.githubusercontent.com/25867675/186111763-a542f7af-d7de-4ec5-a651-b85b8f669aea.png">
 
