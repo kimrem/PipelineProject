@@ -5,7 +5,7 @@ echo "Port: $PORT"
 
 # POST method predict
 curl -d '{
-   “CRIM”:{
+   “CRIM”: { 
       “0":0.21124
    },
    “ZN”:{
