@@ -37,9 +37,9 @@ Below are instructions for running the Python project.
 
 <img width="1225" alt="Pipeline successfully working" src="https://user-images.githubusercontent.com/25867675/186251760-5b185873-54db-4aa4-ab76-bdd6a1df1049.png">
 
-<img width="813" alt="website_running" src="https://user-images.githubusercontent.com/25867675/186251949-9e56f491-9489-40ad-a0b4-c08d8a44fedd.png">
+* Successful prediction from deployed flask app in Azure Cloud Shell.
 
-* Successful prediction from deployed flask app in Azure Cloud Shell.(https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
+<img width="813" alt="website_running" src="https://user-images.githubusercontent.com/25867675/186251949-9e56f491-9489-40ad-a0b4-c08d8a44fedd.png">
 
 The output of the working application (please note the name is different as I had to re-run this step several times as there was a mistake in the code provided by Udacity)
 
