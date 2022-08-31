@@ -5,7 +5,7 @@ This project illustrates how to deploy a machine learning python application usi
 ## Project Plan
 
 * A link to a Trello board for the project: https://trello.com/b/dWyJ3CJH/pipelineproject
-* The spreadsheet will be uploaded as document as file
+* The spreadsheet will be uploaded as document as Excel file
 
 ## Instructions
 
@@ -41,7 +41,7 @@ Below are instructions for running the Python project.
 
 * Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
 
-The output of the working application (please note the path is different as I had to re-run this step several times as there was a mistake in the code given by udacity)
+The output of the working application (please note the name is different as I had to re-run this step several times as there was a mistake in the code provided by Udacity)
 
 <img width="643" alt="Bildschirmfoto 2022-08-31 um 10 38 13" src="https://user-images.githubusercontent.com/25867675/187635498-8ac084bc-d1a1-4e4c-a9ee-d6ce3c04cd0d.png">
 
@@ -57,6 +57,6 @@ The project can be improved. One idea would be to include alerts, for example wh
 
 ## Demo 
 
-<TODO: Add link Screencast on YouTube>
+Here is a link to a demo: https://youtu.be/h_e0M2jSXPA.
 
 
