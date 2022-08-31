@@ -15,7 +15,7 @@ This project illustrates how to deploy a machine learning python application usi
 
 Below are instructions for running the Python project.
 
-* Project cloned into Azure Cloud Shell by creating ssh-keys ("ssh-keygen -t rsa"), getting public key (“cat /home/odl_user/.ssh/id_rsa.pub” and copy the key into to GitHub. Then clone repo to Azure by using "git clone sshCodeFromGitHub”![image](https://user-images.githubusercontent.com/25867675/186249179-afb688b3-3b67-4aa4-9915-d4acf9001f70.png)
+* Project cloned into Azure Cloud Shell by creating ssh-keys ("ssh-keygen -t rsa"), getting public key (“cat /home/odl_user/.ssh/id_rsa.pub” and copy the key into to GitHub. Then clone repo to Azure by using "git clone sshCodeFromGitHub” (https://user-images.githubusercontent.com/25867675/186249179-afb688b3-3b67-4aa4-9915-d4acf9001f70.png)
 
 <img width="888" alt="Project_cloned_to_Azure" src="https://user-images.githubusercontent.com/25867675/186111763-a542f7af-d7de-4ec5-a651-b85b8f669aea.png">
 
@@ -39,7 +39,8 @@ Below are instructions for running the Python project.
 
 <img width="813" alt="website_running" src="https://user-images.githubusercontent.com/25867675/186251949-9e56f491-9489-40ad-a0b4-c08d8a44fedd.png">
 
-* Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
+* Successful prediction from deployed flask app in Azure Cloud Shell.
+(https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
 
 The output of the working application (please note the name is different as I had to re-run this step several times as there was a mistake in the code provided by Udacity)
 
