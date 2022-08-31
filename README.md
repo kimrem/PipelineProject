@@ -42,13 +42,11 @@ Below are instructions for running the Python project.
 <img width="813" alt="website_running" src="https://user-images.githubusercontent.com/25867675/186251949-9e56f491-9489-40ad-a0b4-c08d8a44fedd.png">
 
 * Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
-The output should look similar to this:
 
-```bash
-udacity@Azure:~$ ./make_predict_azure_app.sh
-Port: 443
-{"prediction":[20.35373177134412]}
-```
+The output of the working application (please note the path is different as I had to re-run this step several times as there was a mistake in the code given by udacity)
+
+<img width="643" alt="Bildschirmfoto 2022-08-31 um 10 38 13" src="https://user-images.githubusercontent.com/25867675/187635498-8ac084bc-d1a1-4e4c-a9ee-d6ce3c04cd0d.png">
+
 
 * Output of streamed log files from deployed application
 
