@@ -1,11 +1,11 @@
 # Overview
 
-This project illustrates how to deploy a machine learning python application using the concepts of CI/CD. Therefore, Azure App Services and Azure Pipelines are used. xx
+This project illustrates how to deploy a machine learning python application using the concepts of CI/CD. Therefore, Azure App Services and Azure Pipelines are used.
 
 ## Project Plan
 
 * A link to a Trello board for the project: https://trello.com/b/dWyJ3CJH/pipelineproject
-* The spreadsheet will be uploaded as document as Excel file
+* The spreadsheet is uploaded as Excel file document in the GitHub repository (called "Plan.xlsx")
 
 ## Instructions
 
@@ -50,6 +50,10 @@ The output of the working application (please note the name is different as I ha
 
 <img width="1229" alt="Log Files" src="https://user-images.githubusercontent.com/25867675/186251222-dc73f788-fcf9-4f48-be29-4d880a7400a2.png">
 
+* Locust test screenshot
+
+<img width="1233" alt="Locust_screenshot" src="https://user-images.githubusercontent.com/25867675/187927476-42cb26da-fd52-403c-beeb-07bec6907fdf.png">
+
 
 ## Enhancements
 
@@ -58,5 +62,6 @@ The project can be improved. One idea would be to include alerts, for example wh
 ## Demo 
 
 Here is a link to a demo: https://youtu.be/h_e0M2jSXPA.
+Here is a link to a live demo demonstrating the functioning of the pipeline: https://youtu.be/Js8k-DUkgwc
 
 
