@@ -4,7 +4,11 @@ This project illustrates how to deploy a machine learning python application usi
 
 ## Project Plan
 
-* A link to a Trello board for the project: https://trello.com/b/dWyJ3CJH/pipelineproject
+* A link to a Trello board for the project: https://trello.com/invite/b/dWyJ3CJH/72ed2d745b210faee010f64f3fc4e010/pipelineproject
+The board is definitely set to public. In case it does not work again - here is a screenshot:
+
+<img width="865" alt="Bildschirmfoto 2022-09-01 um 21 06 18" src="https://user-images.githubusercontent.com/25867675/187993244-c37db987-569f-420a-9184-92e8a149925c.png">
+
 * The spreadsheet is uploaded as Excel file document in the GitHub repository (called "Plan.xlsx")
 
 ## Instructions
