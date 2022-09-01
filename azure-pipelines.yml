@@ -4,7 +4,7 @@ trigger:
 pool: myAgentPool
 
 variables:
-  azureServiceConnectionId: 'myserviceconnection12012019'
+  azureServiceConnectionId: 'myserviceconnection'
   webAppName: 'myWebAppKR12'
   environmentName: 'flask-ml-service'
   projectRoot: $(System.DefaultWorkingDirectory)
