@@ -1,6 +1,6 @@
 # Overview
 
-This project illustrates how to deploy a machine learning python application using the concepts of CI/CD. Therefore, Azure App Services and Azure Pipelines are used.
+This project illustrates how to deploy a machine learning python application using the concepts of CI/CD. Therefore, Azure App Services and Azure Pipelines are used. xx
 
 ## Project Plan
 
