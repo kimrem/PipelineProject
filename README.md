@@ -65,6 +65,9 @@ The project can be improved. One idea would be to include alerts, for example wh
 
 ## Demo 
 
+Here is a link to a live demo showing the required steps: https://youtu.be/RO_p7Ii0tVQ
+
+Below are former versions of the demo (that did not meet the requirements):
 Here is a link to a demo: https://youtu.be/h_e0M2jSXPA.
 Here is a link to a live demo demonstrating the functioning of the pipeline: https://youtu.be/Js8k-DUkgwc
 
